@@ -1,0 +1,40 @@
+h1{
+    font-weight: bold;
+    padding: 8px 6px;
+    color: orange;
+}
+h1:hover
+{
+    color: black;
+    cursor: pointer;
+}
+.contact-content{
+    /* background-color: lightgray; */
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    margin-top: 32px;
+    position: relative;
+    
+   
+}
+.contact-content::after{
+    content: "";
+    width: 100%;
+    height: inherit;
+    background-image: url("images/bg.jpg");
+    position: absolute;
+    top: 0;
+    opacity: 0.15;
+    border-radius: 15px;
+    z-index: -1;
+
+}
+.form-box input,textarea{
+  margin: 8px ;
+  padding: 8px 6px;
+  width: 40vw;
+  border: 2px solid #ffc107;
+  border-radius: 5px;
+
+}
