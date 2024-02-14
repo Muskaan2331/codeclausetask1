@@ -84,6 +84,16 @@ a {
   border-radius: 15px;
   
 }
+
+
+ .search-container  .placeholder{
+  display: inline-block; 
+  
+  padding-left: 26px;
+}
+
+
+
 .content-left {
   display: flex;
   flex-direction: column;
